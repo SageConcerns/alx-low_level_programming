@@ -2,6 +2,7 @@
 
 /**
  * _is lower - checkining char for lower case
+ * @c: is char under review
  * Return: 1 for lower case, otherwise 0.
  */
 
