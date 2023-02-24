@@ -6,9 +6,9 @@
 
 void print_numbers(void)
 {
-	char z = '0';
+	char c = '0';
 
-	while (z <= '9')
+	while (c <= '9')
 	{
 		_putchar(z);
 		z++;
