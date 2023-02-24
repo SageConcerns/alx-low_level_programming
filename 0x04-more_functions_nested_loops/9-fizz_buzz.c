@@ -21,7 +21,7 @@ int main(void)
 		} else if (i % 3 == 0 && 1 % 5 == 0)
 		{
 			printf(" FizzBuzz");
-		} else  if (i == 1)
+		} else if (i == 1)
 		{
 			printf("%d", i);
 		} else
