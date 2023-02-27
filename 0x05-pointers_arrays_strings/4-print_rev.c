@@ -11,10 +11,10 @@ void print_rev(char *s)
 
 	b = 0;
 
-	while (s[n] != '\n')
+	while (s[b] != '\n')
 		b++;
 
-	for (a = b - 1; a >= 0; i--)
+	for (a = b - 1; a >= 0; a--)
 	{
 		_putchar(s[a]);
 	}
