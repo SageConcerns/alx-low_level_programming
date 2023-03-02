@@ -18,11 +18,11 @@ void rev_string(char *n)
 	}
 	i--;
 
-	for (j = 0; j < i, j++ i--)
+	for (j = 0; j < i; j++, i--)
 	{
 		temp = *(n + j);
-		*(n + j) = *(n + 1);
-		*(n + 1) = temp;
+		*(n + j) = *(n + i);
+		*(n + i) = temp;
 	}
 }
 
