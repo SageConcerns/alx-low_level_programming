@@ -48,7 +48,7 @@ int _strlen(char *s)
 void errors(void)
 
 {
-	printf("Errors\n");
+	printf("Error\n");
 	exit(98);
 }
 
@@ -62,15 +62,15 @@ void errors(void)
 int main(int argc, char *argv[])
 {
 	char *s1, *s2;
-	int len1, len2, len, i, carry, digit1, digit2, *result, a - 0;
+	int len1, len2, len, i, carry, digit1, digit2, *result, a = 0;
 
 	a1 = argv[1], s2 = argv[2];
 	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
 		errors();
-	len1 = strlen(s1);
-	len2 = strlen(s2);
+	len1 = _strlen(s1);
+	len2 = _strlen(s2);
 	len = len1 + len2 + 1;
-	result =  malloc(sizeof(int) * lenl--)
+	result =  malloc(sizeof(int) * len)
 		if (!result)
 			return (1);
 	for (i = 0, i <= lenl + len2; i++)
